@@ -14,7 +14,7 @@ Para ingresar más fácilmente al ML Studio puedes hacerlo desde [Aquí](https:/
 
 Una vez que hayas ingresado, crea tu área de trabajo.
 
-![](Imagenes\Picture1.png)
+![](Imagenes/Picture1.png)
 
 
 -------------------------------------
@@ -23,7 +23,7 @@ Una vez que hayas ingresado, crea tu área de trabajo.
 
 Cuando tu área de trabajo este lista ingresa a ella y busca del lado lateral izquierdo **Instancia de proceso**.
 
-![](Imagenes\Picture2.png)
+![](Imagenes/Picture2.png)
 
 - Puedes elegir entre CPU y GPU.
 - Selecciona el tamaño de la maquina que te permita o utilizar la recomendada (Estándar_DS11_v2).
@@ -34,11 +34,11 @@ Cuando tu área de trabajo este lista ingresa a ella y busca del lado lateral iz
 
 Una vez finalizada la tarea del paso anterior, busca en el lateral izquierdo **Notebooks** y crea uno.
 
-![](Imagenes\Picture3.png)
+![](Imagenes/Picture3.png)
 
 - Dale el nombre que gustes pero no elimines el .ipynb, ya que haremos uso de un Jupiter NoteBook.
 
-Ahora copiarás el *código* de python que se encuentra en este mismo archivo, el cual fue proporcionado por [José Jesús Guzman](https://github.com/josejesusguzman/face-api-consumption-python)
+Ahora copiarás el *código* de python que se lo encontraras como **CodeAPI.py**, el cual fue proporcionado por [José Jesús Guzman](https://github.com/josejesusguzman/face-api-consumption-python)
 
 1.- Para copiar este código de forma más rapida entraras a la carpeta donde está el código de python:
     ° Buscaras "Raw"
@@ -46,7 +46,7 @@ Ahora copiarás el *código* de python que se encuentra en este mismo archivo, e
     ° Presiona Ctrl + c
     ° En tu NoteBook preiona Ctrl + v
 
-![](Imagenes\Picture4.png)
+![](Imagenes/Picture4.png)
 
 --------------------------------
 ### Paso 4: Uso de Azure Cognitives Services.
@@ -54,7 +54,7 @@ Ahora copiarás el *código* de python que se encuentra en este mismo archivo, e
 
 - Ingresa al [Portal de Azure](https://portal.azure.com/) con tu cuenta y y es la barra de busqueda escribe: **Face APIs** o en español *Api de Face*.
 
-![](Imagenes\Picture5.png)
+![](Imagenes/Picture5.png)
 
 - Crea una.
 
@@ -66,7 +66,9 @@ Ahora copiarás el *código* de python que se encuentra en este mismo archivo, e
 
 
 - Una vez creada tu Face API ve al recurso y busca en el lado izquierdo **Claves y puntos de conecxión**
+
 ![](Imagenes/Picture7.png)
+
      - La **clave 1** copeala y pegala en el código de tu  Notebook donde dice: **susbcription key**.
      - Copea el **extremo o endpoint** en donde dice **fase_api_url**.
 
@@ -82,7 +84,7 @@ En caso de que no sepas como obtener las direcciones de las imagenes te muestro 
 - Vuelve a seleccionar la imagen y busca en el codigo pasando el cursor del mouse por encima del código hasta que seleccione toda la imagen.
 - En donde te haya seleccionado toda la imagen busca **scr** y copea todo el link.
 
-![](Imagenes\Picture8.png)
+![](Imagenes/Picture8.png)
 
 - En caso de una imagen de google.
     - Busca una imagen.
